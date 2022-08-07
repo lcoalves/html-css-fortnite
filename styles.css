@@ -1,0 +1,67 @@
+@font-face {
+  font-family: BurbankBigRegular-Black;
+  font-weight: bold;
+  src: url("./fonts/burbank-big-regular-black.otf") format("opentype");
+}
+
+.banner {
+  background-image: url("./imgs/1bgimage.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  aspect-ratio: 2 / 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.banner img {
+  max-height: 17vw;
+  margin-bottom: 74px;
+}
+
+.container {
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 24px;
+
+  text-align: center;
+}
+
+.container .content:first-child .image {
+  margin-top: -70px;
+}
+
+.image {
+  margin-bottom: 48px;
+  border: 8px solid white;
+  background-color: white;
+}
+
+.text {
+  margin: 0 38px;
+  padding: 0 24px;
+
+  font-family: BurbankBigRegular-Black;
+  font-style: italic;
+
+  overflow-wrap: break-word;
+
+  color: #333;
+}
+
+.text h2 {
+  letter-spacing: 0.0125em;
+  font-size: 8vh;
+  margin-bottom: 32px;
+
+  line-height: 74px;
+}
+
+.text p {
+  font-size: 3vh;
+  margin-bottom: 64px;
+}
