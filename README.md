@@ -3,4 +3,4 @@ Link do vídeo no youtube: [Recriando página do FORTNITE com HTML e CSS](https:
 
 ## Premissas:
  - Os elementos HTML dão a estrutura para a página;
- - A CSS dão forma e posicionamento.
+ - As CSS dão forma e posicionamento.
